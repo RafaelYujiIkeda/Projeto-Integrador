@@ -5,19 +5,19 @@
     border: 1px solid #f5f5f0;
     border-radius: 10px;
     background-color: #66bb6a;
-};
+}
 #emailCadastro {
     width: 100%;
     padding: 10px;
     margin: 8px 0;
     box-sizing: border-box;
-};
+}
 #senhaCadastro{
     width: 100%;
     padding: 10px;
     margin: 8px 0;
     box-sizing: border-box;
-};
+}
 .botaoCadastro{
     width: 100%;
     padding: 10px;

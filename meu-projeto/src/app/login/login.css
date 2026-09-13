@@ -1,0 +1,27 @@
+.div-Login {
+    width: 350px;
+    margin: 50px auto;
+    padding: 25px;
+    border: 1px solid #f5f5f0;
+    border-radius: 10px;
+    background-color: #66bb6a;
+}
+#emailLogin {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#senhaLogin{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.botaoLogin{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #2e7d32;
+}
