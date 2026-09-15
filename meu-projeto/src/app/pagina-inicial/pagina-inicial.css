@@ -1,11 +1,147 @@
-.div-header {
-    background-color: #2e7d32;
-    margin-bottom: 10px;
-    padding:5px;
-}
 body {
+    margin: 0;
+    font-family: Arial, sans-serif;
     background-color: #f5f5f0;
 }
-.logotipo {    
-    width:200px;
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 15px 40px;
+
+    background-color: #2e7d32;
+    color: white;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+
+.menu a {
+    color: #263238;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.inicio {
+    padding: 80px 40px;
+
+    background-color: #66bb6a;
+
+    color: white;
+
+    text-align: center;
+}
+
+
+.texto-inicio {
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.texto-inicio h1 {
+    font-size: 40px;
+}
+
+
+.texto-inicio p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.botao {
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 12px 25px;
+
+    background-color: #1b5e20;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 6px;
+}
+
+
+.botao:hover {
+    background-color: #145018;
+}
+
+
+.informacoes {
+    padding: 50px 40px;
+    color: #263238;
+    text-align: center;
+}
+
+
+.informacoes h2 {
+    font-size: 30px;
+
+    color: #263238;
+}
+
+.cards {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+    margin-top: 30px;
+}
+
+
+.card {
+    width: 220px;
+
+    padding: 25px;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+.card h3 {
+    color: #2e7d32;
+}
+
+
+.card p {
+    line-height: 1.5;
+}
+
+
+footer {
+    padding: 20px;
+
+    text-align: center;
+
+    background-color: #2e7d32;
+
+    color: white;
 }
