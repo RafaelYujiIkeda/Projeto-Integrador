@@ -1,22 +1,56 @@
-    <title>Cadastro</title>
+<div class="cadastro-container">
 
-<body>
-    
-    <div class="div-cadastro">
-        <h2>Cadastro de Usuário</h2>
-        <label>Email:</label>
-        <input type="email" id="emailCadastro" placeholder="Digite seu e-mail" required>
-        <div class="invalid-feedback">Email obrigatório</div>
+  <div class="logo">
+    🌱
+  </div>
 
-        <br>
+  <h1>EcoBairro</h1>
 
-        <label>Senha:</label>
-        <input type="password" id="senhaCadastro" placeholder="Digite sua senha" required>
-        <div class="invalid-feedback">Senha obrigatório</div>
+  <p class="subtitulo">Reciclagem e cuidado do bairro</p>
 
-        <br>
+  <div class="alternar">
+    <a routerLink="/login">Entrar</a>
+    <a class="ativo" routerLink="/cadastro">Criar conta</a>
+  </div>
 
-        <button type="submit" class="botaoCadastro">Cadastrar</button>
-    </div>
+  <form>
 
-</body>
+    <label for="nome">Nome</label>
+
+    <input
+      type="text"
+      id="nome"
+      placeholder="Seu nome"
+    >
+
+    <label for="email">E-mail</label>
+
+    <input
+      type="email"
+      id="email"
+      placeholder="ana@email.com"
+    >
+
+    <label for="senha">Senha</label>
+
+    <input
+      type="password"
+      id="senha"
+      placeholder="Mínimo 8 caracteres"
+    >
+
+    <label for="confirmarSenha">Confirmar senha</label>
+
+    <input
+      type="password"
+      id="confirmarSenha"
+      placeholder="Repita a senha"
+    >
+
+    <button type="submit" class="botao">
+      Criar conta
+    </button>
+
+  </form>
+
+</div>
