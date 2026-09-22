@@ -145,3 +145,8 @@ footer {
 
     color: white;
 }
+
+a {
+  color: #2e7d32;
+  text-decoration: none;
+}

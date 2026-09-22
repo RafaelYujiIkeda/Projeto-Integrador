@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-
 import { PaginaInicial } from './pagina-inicial/pagina-inicial';
 import { Login } from './login/login';
 import { Reciclagem } from './reciclagem/reciclagem';
