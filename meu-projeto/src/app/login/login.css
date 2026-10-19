@@ -125,3 +125,13 @@
   font-size: 12px;
   font-weight: bold;
 }
+
+.mensagem {
+  color: #c62828;
+  font-size: 12px;
+  margin: 0 0 12px;
+}
+
+input.ng-invalid.ng-touched {
+  border-color: #f44336;
+}

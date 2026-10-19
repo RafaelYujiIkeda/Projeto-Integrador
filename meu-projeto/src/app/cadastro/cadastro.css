@@ -123,3 +123,12 @@
 .botao:hover {
   background-color: #256b29;
 } 
+.mensagem {
+  color: #c62828;
+  font-size: 12px;
+  margin: 0 0 12px;
+}
+
+input.ng-invalid.ng-touched {
+  border-color: #f44336;
+}
